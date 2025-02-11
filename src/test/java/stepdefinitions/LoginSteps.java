@@ -11,7 +11,7 @@ public class LoginSteps{
 
     @Given("I open the login page")
     public void i_open_the_login_page(){
-        System.setProperty("webdriver.chrome.driver", "path/to/chromedriver"); //Must have chromedriver downloaded to run w/ correct path
+      //  System.setProperty("webdriver.chrome.driver", "path/to/chromedriver"); //Must have chromedriver downloaded to run w/ correct path
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get("https://example.com/login");
